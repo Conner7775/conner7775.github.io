@@ -1,0 +1,250 @@
+body {
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+.panel {
+    background-color: #212f3d;
+    margin: 50px 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.AboutMePanel {
+    background-color: #212f3d;
+    margin: 50px 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    height: 60%;
+    overflow: hidden;
+}
+
+.socials {
+    display: flex;
+    position: relative;
+    gap: 25px;
+    padding: 50px 0px 20px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s;
+}
+
+.socials img:hover {
+    transform: scale(1.15);
+}
+
+
+#aboutMeNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+}
+
+.hidden-left {
+    transform: translateX(-100%);
+}
+
+.hidden-right {
+    transform: translateX(100%);
+}
+
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.panel .btn {
+    margin-top: 30px;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 5000px;
+    transition: all 0.3s;
+}
+
+.panel .btn:hover {
+    color: red;
+    transform: scale(1.15);
+}
+
+.panel .img-fluid {
+    border-radius: 150px;
+    height: 65%;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    padding: 20px 0px 20px 0px;
+}
+
+.container-fluid {
+    background-color: #212f3d;
+    border-radius: 10px;
+}
+
+#mainNavbar .navbar-brand {
+    padding-left: 20px;
+    color: #800000;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #b41e50;
+}
+
+#headingIntro .erwinName {
+    color: #800000;
+    font-weight: 600;
+}
+
+#headingIntro h1 {
+    font-weight: 500;
+    font-size: 4rem;
+    padding-top: 160px;
+}
+
+.blurb h2 {
+    color: #800000;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    padding-top: 15px;
+    font-weight: 200;
+    line-height: 2;
+}
+
+.navbar.scrolled {
+    background: black;
+    transition: 500ms;
+}
+
+div .projects {
+    overflow: hidden;
+}
+
+h2.projectHeading {
+    color: #800000;
+    margin: 50px;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+h2.aboutHeading {
+    color: #800000;
+    margin: 50px;
+    font-weight: 500;
+    font-size: 3rem;
+    flex-direction: column;
+}
+
+#projectsNav {
+    scroll-margin-top: 180px;
+}
+
+.img-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.projectDate {
+    color: white;
+    font-weight: 200;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+div .projectTitle {
+    color: white;
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+}
+
+.panel .projectDescription {
+    font-size: 1.2rem;
+    margin: 0px 0px 30px 0px;
+}
+
+.panel .virtualdressapp {
+    border-radius: 70px;
+    height: 320px;
+    width: 320px;
+    margin: auto;
+    display: flex;
+    display: block;
+    background-color: aqua;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(83, 228, 228, 0.979);
+}
+
+.panel .pokemonapp {
+    border-radius: 70px;
+    height: 320px;
+    width: 320px;
+    margin: auto;
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(246, 255, 255, 0.979);
+}
+
+.panel .chadifyapp {
+    border-radius: 70px;
+    height: 320px;
+    width: 320px;
+    margin: auto;
+    display: flex;
+    background-color: rgb(34, 129, 121);
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(82, 148, 148, 0.979);
+}
+
+.section-separator {
+    width: 80%;
+    margin: 40px auto;
+    border-top: 2px solid #333;
+    text-align: center;
+    position: relative;
+}
+
+.section-separator::before {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px 10px;
+    font-size: 24px;
+}
