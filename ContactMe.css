@@ -107,7 +107,7 @@ button:hover {
     transform: scale(1.15);
 }
 
-a[href="Website.html"] {
+a[href="index.html"] {
     display: inline-flex;
     background-color: none;
     color: #6995c2;
@@ -118,7 +118,7 @@ a[href="Website.html"] {
     transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
 }
 
-a[href="Website.html"]:hover {
+a[href="index.html"]:hover {
     border-color: hsl(192, 19%, 43%);
     color: white;
     box-shadow: 0 0.5em 0.5em -0.4em;
