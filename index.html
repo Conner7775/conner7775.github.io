@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Erwin's Website</title>
+    <link rel="stylesheet" href="ContactMe.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="Website.css">
+</head>
+
+<body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="#" class="navbar-brand">ERWIN</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#aboutMeNav" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projectsNav" class="nav-link">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ContactMe.html" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hidden hidden-left">
+        <div class="panel">
+            <section class="container-fluid px-0">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div id="headingIntro" class="text-white text-center d-none d-lg-block">
+                            <h1 class=""><span class="erwinName">Erwin</span> Pan</h1>
+                            <h2 class="">Software/Mobile Developer </h2>
+                            <a href="mailto:erwin.pan.work@gmail.com" class="btn btn--contact">Hire Me</a>
+                            <div class="socials">
+                                <a href="https://www.linkedin.com/in/erwin-pan/">
+                                    <img id="linkedinIcon" src="linkedin-icon.webp" alt="LinkedIn Icon">
+                                </a>
+
+                                <a href="https://github.com/Conner7775">
+                                    <img id="githubIcon" src="github-icon.png" alt="Github Icon">
+                                </a>
+
+                                <a href="#">
+                                    <img id="resumeIcon" src="resume-icon.png" alt="Resume Icon"
+                                        onclick="window.open('Erwin_Pan_Resume.pdf', '_blank')">
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 align-items-center">
+                        <img class="img-fluid" src="profile.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <div class="section-separator"></div>
+
+    <section id="aboutMeNav">
+        <h2 class="aboutHeading hidden hidden-right">About Me</h2>
+        <section class="hidden hidden-left" id="aboutMe">
+            <div class="AboutMePanel">
+                <section class="container-fluid px-0">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 order-2 order-md-1">
+                            <img src="rockclimb.jpeg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-6 text-white text-center order-1 order-md-2">
+                            <div class="row justify-content-center blurb">
+                                <div id="about" class="col-10 col-lg-8">
+                                    <img src="penguin.webp" alt="" width="200" class="d-none d-lg-inline">
+                                    <p class="lead">Whenever I am not coding, I try to touch grass. Lifting is
+                                        my main reality anchor. I love to do all kinds of physical activities such as
+                                        hiking,
+                                        rock
+                                        climbing, etc. If I feel like an armchair enthusiast, I tend to indulge in Anime
+                                        or
+                                        play
+                                        video games.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+            </div>
+        </section>
+    </section>
+
+    <div class="section-separator"></div>
+
+    <section id="projectsNav">
+        <div class="projects">
+            <h2 class="projectHeading hidden hidden-left">Projects</h2>
+
+            <div class="panel hidden hidden-right">
+                <section class="container-fluid px-0">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 order-2 order-md-1">
+                            <span class="img-date">
+                                <img class="img-fluid virtualdressapp" src="hanger-1024.webp" alt="">
+                                <p class="projectDate">Aug 2023 - May 2024</p>
+                            </span>
+                        </div>
+                        <div class="col-md-9 text-white text-left order-1 order-md-2">
+                            <div class="row justify-content-center blurb">
+                                <div id="project" class="col-10 col-lg-8">
+                                    <h2 class="projectTitle">Virtual Dress-Up App</h2>
+                                    <p class="projectDescription">
+                                        ● Developed an Android application utilizing API for virtual model outfitting.
+                                        <br>
+                                        ● Integrated Revery.AI’s APImethods for model and outfit uploads,and Request
+                                        Try-on
+                                        Outfit requests.
+                                        <br>
+                                        ● Implemented Firestore Database to store user, model, and outfit data.
+                                        <br>
+                                        ● Designed Outfit Try-On feature to mix and match outfits on virtual models via
+                                        ReveryAIClient API calls for dynamically rendering outfits onto models.
+                                        <br>
+                                        ● Created a Gallery feature to manageand sync saved outfits with Firestore,
+                                        displayed via RecyclerView.
+                                        <br>
+                                        ● Implemented a Calendar feature for users to planand save outfit schedules in
+                                        Firestore Database.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+            </div>
+    </section>
+
+    <div class="panel hidden hidden-left">
+        <section class="container-fluid px-0">
+            <div class="row align-items-center">
+                <div class="col-md-3 order-2 order-md-1">
+                    <span class="img-date">
+                        <img class="img-fluid pokemonapp" src="pikachu.png" alt="">
+                        <p class="projectDate">Aug 2021 - Nov 2021</p>
+                    </span>
+                </div>
+                <div class="col-md-9 text-white text-left order-1 order-md-2">
+                    <div class="row justify-content-center blurb">
+                        <div id="project" class="col-10 col-lg-8">
+                            <h2 class="projectTitle">Text-Based Pokemon Game</h2>
+                            <p class="projectDescription">
+                                ● Developed an interactive text-based console application Pokemon game.
+                                <br>
+                                ● Implemented a dynamic map system allowing players to navigate between 2D 5x5
+                                matrix
+                                text-plane, where players encounter randomized Pokemons or Cities.
+                                <br>
+                                ● Implemented a function to generate randomized Pokemon instances for player
+                                encounters,
+                                leveraging data from a file and stored in a hashmap, with adjustable stats based on
+                                player level.
+                                <br>
+                                ● Implemented buffs and debuffs for Pokemon instances, modifying attributes such as
+                                attack and HP according to their types.
+                                <br>
+                                ● Programmed a Trainer class that manages a player's attributes such as money, their
+                                Pokémon collection, movement on a map, and other actions such as engaging in
+                                battles.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    <div class="panel hidden hidden-right">
+        <section class="container-fluid px-0">
+            <div class="row align-items-center">
+                <div class="col-md-3 order-2 order-md-1">
+                    <span class="img-date">
+                        <img class="img-fluid chadifyapp" src="chadify.png" alt="">
+                        <p class="projectDate">Jul 2023 - Aug 2023</p>
+                    </span>
+                </div>
+                <div class="col-md-9 text-white text-left order-1 order-md-2">
+                    <div class="row justify-content-center blurb">
+                        <div id="project" class="col-10 col-lg-8">
+                            <h2 class="projectTitle">Chadify</h2>
+                            <p class="projectDescription">
+                                ● Developed an Android application to create workout programs designed to help users
+                                achieve their fitness goals.
+                                <br>
+                                ● Designed a user-friendly notepad-style interface for organizing workout plans by
+                                specific muscle groups, synchronized with Firestore Database for efficient storage
+                                and
+                                retrieval.
+                                <br>
+                                ● Implemented ViewModels to facilitate the display of each muscle group on the main
+                                page, allowing users to add their workout plans to each muscle group.
+                                <br>
+                                ● Used CRUD implementation to manage exercises within each muscle group.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+    </div>
+
+
+    <script defer src="Website.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            })
+        })
+    </script>
+</body>
+
+
+</html>
