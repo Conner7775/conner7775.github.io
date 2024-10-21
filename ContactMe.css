@@ -99,6 +99,7 @@ button {
     padding: 20px 30px;
     border-radius: 50px;
     transition: all 0.3s;
+    color: black;
 }
 
 button:hover {
@@ -161,6 +162,7 @@ a[href="index.html"]:hover {
         padding: 10px 20px;
         border-radius: 50px;
         transition: all 0.3s;
+        color: black;
     }
 }
 
@@ -208,6 +210,7 @@ a[href="index.html"]:hover {
         padding: 10px 20px;
         border-radius: 50px;
         transition: all 0.3s;
+        color: black;
     }
 }
 
@@ -244,5 +247,6 @@ a[href="index.html"]:hover {
         padding: 10px 20px;
         border-radius: 50px;
         transition: all 0.3s;
+        color: black;
     }
 }
