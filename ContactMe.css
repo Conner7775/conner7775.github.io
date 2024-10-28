@@ -169,14 +169,14 @@ a[href="index.html"]:hover {
 @media screen and (max-height: 850px) {
 
     h2 {
-        font-size: 5vw;
+        font-size: 4vw;
         padding: 5px;
     }
 
     .contact-form form .input-box input,
     .contact-form form textarea {
         width: 100%;
-        padding: 1em;
+        padding: 0.8em;
         font-size: 18px;
         color: black;
         background-color: rgb(224, 217, 217);
@@ -185,7 +185,7 @@ a[href="index.html"]:hover {
         resize: none;
         box-sizing: border-box;
         display: flex;
-        height: 60%;
+        height: 50%;
     }
 
     section {
